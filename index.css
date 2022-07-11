@@ -402,3 +402,48 @@ padding: 10px;
 
 
 
+    /*  Footer */
+
+    footer {
+        /* border: 10px solid yellowgreen; */
+        float: left;
+        width: 100%;
+        background: black;
+        color: #ffffff;
+        padding: 60px 5% 30px;
+        border-top: 5px solid white;
+    }
+
+
+    .left-side {
+        float: left;
+        width: 40%;
+
+    }
+
+    .left-side img {
+        width: 20%;
+        height: 10%;
+    }
+
+    .right-side{
+        float: right;
+        width: 60%;
+        
+    }
+ .bottomlst {
+    list-style-type: none;
+    float: left;
+    width: 33%;
+ }
+
+ #sm {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+ }
+
+
+
+
+
