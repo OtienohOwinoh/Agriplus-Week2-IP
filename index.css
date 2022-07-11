@@ -186,4 +186,47 @@
     padding: 40px;
  }
 
+/* Product categories */
 
+.product-categories {
+
+    text-align: center;
+    font-weight: 700px;
+    font-size: 20px;
+}
+
+
+.popular-section {
+    float: left;
+    width: 100%;
+    padding: 30px 5%;
+}
+
+.most-popular {
+    display: flex;
+    justify-content: space-between;
+}
+
+#popular{
+font-size: 30px;
+
+}
+
+.most-popular-items {
+flex-basis: 300px;
+padding: 10px;
+
+}
+
+
+.most-popular-items img {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.most-popular-items p {
+    line-height: 1.66;
+}
+
+/* Newest Items */
