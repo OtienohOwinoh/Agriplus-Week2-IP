@@ -230,3 +230,34 @@ padding: 10px;
 }
 
 /* Newest Items */
+.newest-category {
+    float: left;
+    width: 100%;
+    padding: 30px 5%;
+}
+
+#new-items-header {
+    font-size: 30px;
+}
+
+.new-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newest-items {
+    flex-basis: 300px;
+    padding: 10px;
+    
+}
+
+.newest-items img {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.new-items p {
+    line-height: 1.66;
+}
