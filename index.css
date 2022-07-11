@@ -1,15 +1,24 @@
+@font-face {
+    font-family: poppins;
+    src: url('Fonts/Poppins/Poppins-Regular.ttf');
+}
+
 * {
     border: none;
     padding: 0;
     margin: 0;
     outline: none;
     box-sizing: border-box;
+    font-family: poppins;
 }
+
+
+
 
  body{
     padding: 0;
     margin: 0;
-    background-color: #e2e0dff1;
+    background-color: #ffffff;
     font-family: sans-serif;
 
  }
@@ -209,6 +218,7 @@
 
 #popular{
 font-size: 30px;
+font-family: poppins;
 
 }
 
@@ -261,3 +271,75 @@ padding: 10px;
 .new-items p {
     line-height: 1.66;
 }
+
+
+/* Customer Feedback SEction */
+    .customer-feedback {
+        float: left;
+        width: 100%;
+        padding: 30px 5%;
+    }
+
+    #feedback-header {
+        font-size: 30px;
+    }
+
+    .feedback-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .review {
+        flex-basis: 400px;
+        padding: 15px;
+        border: 1px solid #cccccc;
+        margin: 15px 0;
+        border-bottom: 5px solid #cccccc;
+
+    }
+
+    .stars {
+        float: left;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .stars .star {
+        font-size: 5rem;
+        color: #ED661F;
+    }
+
+    .stars .star.gray {
+        color: #cccccc;
+    }
+
+    .profile {
+        float: left;
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .profile img {
+        float: left;
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+    }
+
+    .profile h4 {
+        float: right;
+        width: calc(100% - 110px);
+        line-height: 60px;
+
+    }
+
+    .review h3 {
+        font-size: 2rem;
+    }
+
+
+    .read-more {
+
+    }
+
